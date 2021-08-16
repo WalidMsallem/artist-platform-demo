@@ -1,0 +1,32 @@
+.artist-details {
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	form,
+	.ant-input-number {
+		width: 100%;
+	}
+	h2 {
+		margin: 5px 0;
+	}
+	.desc-item {
+		margin: 10px 0;
+		font-size: 20px;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.img-social {
+			width: 30px;
+			margin: 5px 10px;
+		}
+	}
+}
+
+.ant-modal-content {
+	width: 500px;
+}

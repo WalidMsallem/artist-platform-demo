@@ -1,0 +1,27 @@
+.main-layout {
+
+    &__content{
+      background-color: #ebebeb;
+      min-height: 95vh;
+    }
+
+}
+
+@media (max-width: 480px) {
+  
+  .ant-picker-panels {
+    display: flex;
+flex-direction: column;
+  }
+  .ant-picker{
+width: 60%;
+  }
+
+  .ant-avatar{
+    width: 70px !important;
+    height: 40px!important;
+  }
+  .ant-avatar-string{
+    line-height: 41px!important;
+  }
+}
