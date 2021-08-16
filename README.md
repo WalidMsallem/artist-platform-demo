@@ -6,7 +6,7 @@
  
 4.  Run `npm run install` in order to install all dependencies. 
 ````
-$ npm run install
+$ npm install
 ````
 5.  Run `npm start`.
 ````
